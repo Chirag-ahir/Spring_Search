@@ -16,6 +16,8 @@ public class SearchController {
 	@RequestMapping("/search")
 	public RedirectView search(@RequestParam("querybox") String query) {
 		
+		System.out.println("Successfull");
+
 		String url = "https://www.bing.com?q=" + query;
 		
 		RedirectView redirectView = new RedirectView();
