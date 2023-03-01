@@ -29,7 +29,7 @@
 		<div class="card bg-primary" style="width: 50%;">
 			<div class="card-body py-5">
 
-				<h3 class="text-center text-white">My Perfect Search</h3>
+				<h3 class="text-center text-white">Welcome to My Perfect Search</h3>
 
 				<form action="search" class="mt-5">
 					<div class="form-group">
