@@ -16,11 +16,11 @@ public class SearchController {
 	@RequestMapping("/search")
 	public RedirectView search(@RequestParam("querybox") String query) {
 		
-		String url = "https://www.bing.com?q=" + query;
-		
+		final String url = "https://www.bing.com?q=" + query;
 		RedirectView redirectView = new RedirectView();
 		redirectView.setUrl(url);
 		return redirectView;
+
 	}
 
 }
